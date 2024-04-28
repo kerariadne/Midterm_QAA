@@ -32,7 +32,3 @@ def check_text():
     element = driver.find_element(*Locators.text_error)
     return element.text
 
-
-    #WebDriverWait(driver, 3).until(EC.visibility_of_element_located(Locators.home))
-    #driver.find_element(*Locators.signUp).click()
-    #WebDriverWait(driver, 3).until(EC.visibility_of_element_located(Locators.signUpText))
